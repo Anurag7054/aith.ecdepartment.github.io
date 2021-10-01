@@ -1,0 +1,78 @@
+/* Footer CSS Start */
+
+
+
+.footersection{
+    width: 100%;
+    height: auto;
+    padding: 70px 0px 20px 0px;
+    background: #00abff;
+  }
+  
+  .footersection{
+    color: #fff;
+  }
+  .footersection li a{
+    font-size: 0.9rem;
+    line-height: 1.6;
+    font-weight: bold;
+    text-transform: capitalize;
+    
+  }
+  
+  .footersection h3{
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 1.2rem!important;
+    font-weight: 600;
+    text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  #mybtn{
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    z-index: 99;
+    border: none;
+    color: #fff;
+    background: #00abff;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  #mybtn:hover{
+    background-color: #b7ceff;
+  }
+  
+  
+  /* Footer CSS End */
+  
+
+
+  /* Media Quries Start*/
+@media(max-width: 768px){
+    .nav-item{
+      text-align: center!important;
+    }
+    .pricing {
+      height: auto;
+      margin-top: 50px;
+    }
+    .card-second{
+      transform: translateY(0px);
+      margin: 30px 0px;
+    }
+  .happy-clients{
+    height: auto;
+  }
+  .contect p{
+    padding: 0 50px;
+  }
+  .footer-div:nth-child(2){
+    text-align: left!important;
+  }
+  .footer-div{
+    margin: 30px 0px;
+  }
+  }
+
+  

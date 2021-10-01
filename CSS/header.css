@@ -1,0 +1,149 @@
+html{
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+p {
+  font-size: 1.3rem;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #485161;
+}
+/* i is use for fa-fa style */
+i {
+  color: #9563f3;
+}
+
+
+/* Header CSS Start */
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(
+        rgba(0, 168, 255, 0.3),
+        rgba(0, 168, 255, 0.3)
+      ),
+      url("../img/desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    clip-path: polygon(100% 0%, 100% 77%, 50% 100%, 0 75%, 0 0);
+    position: relative;
+  }
+  .header:before {
+    content: "";
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
+    opacity: 0.05;
+    z-index: -1;
+    background: linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%);
+  }
+  .navbar:before {
+    content: "";
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
+    opacity: 0.1;
+    z-index: -1;
+    background: linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%);
+  }
+  .nav-item a {
+    color: #fff !important;
+    font-weight: bold;
+  }
+  /* #dropid{
+    color: rgb(179, 25, 25) !important;
+    font-weight: bold;
+  } */
+  .header-section {
+    width: 100%;
+    height: inherit;
+    color: #fff;
+    text-align: center;
+    position: relative;
+  }
+  .center-div {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+  }
+  
+  .header-buttons a {
+    border: 1px solid #fff;
+    border-radius: 100px;
+    margin: 0 5px;
+    padding: 12px 35px;
+    outline: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    text-align: center;
+  }
+  .header-buttons a:hover {
+    color: black;
+    background: pink;
+    text-decoration: none;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+  }
+  .center-div p {
+    font-size: 1.3rpm;
+    font-weight: 500;
+    padding: 10px 0 20px 0;
+    color: white;
+  }
+  
+  
+  
+  /* Header CSS End */
+
+  /* Media Quries Start*/
+@media(max-width: 768px){
+    .nav-item{
+      text-align: center!important;
+    }
+    .pricing {
+      height: auto;
+      margin-top: 50px;
+    }
+    .card-second{
+      transform: translateY(0px);
+      margin: 30px 0px;
+    }
+  .happy-clients{
+    height: auto;
+  }
+  .contect p{
+    padding: 0 50px;
+  }
+  .footer-div:nth-child(2){
+    text-align: left!important;
+  }
+  .footer-div{
+    margin: 30px 0px;
+  }
+  }
